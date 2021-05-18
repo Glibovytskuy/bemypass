@@ -1,0 +1,89 @@
+
+header{
+    background-color: #fff;
+    height: 60px;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 22px 0 0 0;
+    float: left;   
+}
+nav{
+    margin-top: 22px;
+    float:right;
+ 
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li {
+    float: left;
+    display: block;
+    margin-left: 36px;
+}
+.menu a {
+    color: #2c2a2a;
+    text-decoration: none;
+    font-size: 13px;
+}
+.home {
+    background-color: #005af6;
+    color: #fbfbfb;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+
+.text__home{ 
+    display: inline-block;
+    width: 50%;
+}
+
+.iphone__home {
+    width: 50%;
+    display: inline-block;
+}
+.title__text{
+    font-size: 24px;
+    line-height: 1.33;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+.sub__text{
+    line-height: 1.69;
+    font-size: 13px;
+   
+}
+.iphone__home img {
+    float: right;
+}
+
+.img__flight img {
+    height: 400px;
+    width: 200px;
+    float: left;
+    margin: 23px 0 0 60px;
+}
+.text__flight{
+    float: right;
+}
+.title__flight{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #0652dd;
+}
+
